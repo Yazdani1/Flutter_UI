@@ -12,7 +12,7 @@ class _HomeState extends State<Home> {
 
       appBar: AppBar(
         title: Text("Maderial Text"),
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.deepOrange,
 
         actions: <Widget>[
 
@@ -36,7 +36,25 @@ class _HomeState extends State<Home> {
               children: <Widget>[
 
                 dataitem(context, "I got Salary",
-                    "Early of this month i got my salary", "56000")
+                    "Early of this month i got my salary", "56000"),
+                dataitem(context, "I got Salary",
+                    "Early of this month i got my salary", "56000"),
+                dataitem(context, "I got Salary",
+                    "Early of this month i got my salary", "56000"),
+                dataitem(context, "I got Salary",
+                    "Early of this month i got my salary", "56000"),
+                dataitem(context, "I got Salary",
+                    "Early of this month i got my salary", "56000"),
+                dataitem(context, "I got Salary",
+                    "Early of this month i got my salary", "56000"),
+                dataitem(context, "I got Salary",
+                    "Early of this month i got my salary", "56000"),
+                dataitem(context, "I got Salary",
+                    "Early of this month i got my salary", "56000"),
+                dataitem(context, "I got Salary",
+                    "Early of this month i got my salary", "56000"),
+                dataitem(context, "I got Salary",
+                    "Early of this month i got my salary", "56000"),
 
               ],
             ),
@@ -86,7 +104,7 @@ class _HomeState extends State<Home> {
                   child: CircleAvatar(
                     maxRadius: 25,
                     child: Text(name[0]),
-                    backgroundColor: Colors.green,
+                    backgroundColor: Colors.amber,
                     foregroundColor: Colors.white,
                   ),
                 ),

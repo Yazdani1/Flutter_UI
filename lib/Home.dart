@@ -13,9 +13,7 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: Text("Maderial Text"),
         backgroundColor: Colors.deepOrange,
-
         actions: <Widget>[
-
           IconButton(
               icon: Icon(Icons.add),
               onPressed: null
